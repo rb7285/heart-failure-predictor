@@ -12,12 +12,13 @@ This project leverages machine learning to predict the risk of heart failure in 
 
 ## 🔧 Project Structure
 
-├── '''heart_failure_clinical_records_dataset.csv''' # Dataset
-├── '''heart_model.pth # Trained model weights'''
-├── heart_disease.py # Model training script
-├── heart_failure_app.py # Streamlit application
-├── requirements.txt # Project dependencies
-└── README.md # Project documentation
+heart_failure_clinical_records_dataset.csv  # Dataset
+heart_model.pth                             # Trained model weights
+heart_disease.py                            # Model training script
+heart_failure_app.py                        # Streamlit application
+notebook.ipynb                              # Jupyter Notebook
+requirements.txt                            # Project dependencies
+README.md                                   # Project documentation
 
 bash
 Copy code
@@ -59,5 +60,6 @@ Instances: 299
 Features: 12
 
 Target: DEATH_EVENT (binary classification)
+
 
 
