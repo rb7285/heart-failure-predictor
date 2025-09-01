@@ -13,7 +13,7 @@ This project leverages machine learning to predict the risk of heart failure in 
 ## 🔧 Project Structure
 
 heart-failure-predictor/
-│
+
 ├── heart_failure_clinical_records_dataset.csv  # Dataset
 
 ├── heart_model.pth                             # Trained model weights
@@ -62,3 +62,4 @@ Instances: 299
 Features: 12
 
 Target: DEATH_EVENT (binary classification)
+
