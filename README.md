@@ -28,9 +28,6 @@ heart-failure-predictor/
 
 └── README.md                                   # Project documentation
 
-bash
-Copy code
-
 ## 🚀 How to Run the Streamlit App
 
 1. Clone this repository:
@@ -38,16 +35,13 @@ Copy code
    ```bash
    git clone https://github.com/rb7285/heart-failure-predictor.git
    cd heart-failure-prediction
+
 Install the required dependencies:
-
-bash
-Copy code
 pip install -r requirements.txt
-Run the Streamlit application:
 
-bash
-Copy code
+Run the Streamlit application:
 streamlit run heart_failure_app.py
+
 Open your browser and navigate to http://localhost:8501 to interact with the app.
 
 📊 Model Performance
@@ -68,7 +62,3 @@ Instances: 299
 Features: 12
 
 Target: DEATH_EVENT (binary classification)
-
-
-
-
